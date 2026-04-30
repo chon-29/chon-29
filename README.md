@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/_PORTFOLIO-준비중-0ea5e9?style=for-the-badge&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/_PORTFOLIO-chon--29.github.io-0ea5e9?style=for-the-badge&logoColor=white)](https://chon-29.github.io)
 [![Blog](https://img.shields.io/badge/_BLOG-chon29.tistory.com-0ea5e9?style=for-the-badge&logoColor=white)](https://chon29.tistory.com/category)
 [![LinkedIn](https://img.shields.io/badge/_LINKEDIN-hyungeunson-0284c7?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hyungeun-son-28a7663b3)
 [![Email](https://img.shields.io/badge/_EMAIL-son29ag@gmail.com-0ea5e9?style=for-the-badge&logoColor=white)](mailto:son29ag@gmail.com)
@@ -16,14 +16,11 @@
 
 ---
 
-## 소개
+## 수상
 
-> Baby Beavers 1기 (2026.03 ~)  
-> 상명대학교 캡스톤디자인 교내 경진대회 **대상** (2026.02.05)  
-> 대한전기학회 18회 **대상** (2025.10)  
-> KITRI 화이트햇 스쿨 3기 수료 (2025.03 ~ 2025.09)  
-> KISIA AI 보안 기술개발 교육과정 - 악성코드 트랙 수료 (2024.06 ~ 2024.10)  
-> 상명대학교 정보보안공학과 입학 (2023.03)
+> 대한전기학회 18회 대상 (2025.10.23)  
+> 상명대학교 캡스톤디자인 교내 경진대회 대상 (2026.02.05)
+
 
 ---
 
@@ -45,6 +42,8 @@
 ![Reversing](https://img.shields.io/badge/Reversing-991B1B?style=flat-square&logoColor=white)
 ![Static_Analysis](https://img.shields.io/badge/Static_Analysis-6B7280?style=flat-square&logoColor=white)
 ![Dynamic_Analysis](https://img.shields.io/badge/Dynamic_Analysis-374151?style=flat-square&logoColor=white)
+![x64dbg](https://img.shields.io/badge/x64dbg-4A4A4A?style=flat-square&logoColor=white)
+![IDA](https://img.shields.io/badge/IDA_Pro-0078D4?style=flat-square&logoColor=white)
 ![ML_Classification](https://img.shields.io/badge/ML_Classification-F59E0B?style=flat-square&logo=scikitlearn&logoColor=white)
 
 ### Dev & Infra
@@ -54,7 +53,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-0ea5e9?style=flat-square&logoColor=white)
 
-## 대표 프로젝트
+## 프로젝트
 
 ### 자율형 AI Agent(OpenClaw)를 활용한 취약점 분석 자동화
 > 캡스톤디자인 4-1학기 · skrr 팀 | **2026.03 ~ 진행 중**
@@ -83,7 +82,11 @@ Discord Bot UI를 통해 사용자 명령을 받아 AI 에이전트가 자동으
 ---
 
 ### MCP 기반 소프트웨어 구성 요소 분석 및 취약점 관리 시스템
-> 캡스톤디자인 3-2학기 · 타이거개구리 팀 | **2025.10.23** | 대한전기학회 18회 대상 | 상명대학교 캡스톤디자인 교내 경진대회 대상 2026.02.05
+> 캡스톤디자인 3-2학기 · 타이거개구리 팀 | **2025.09 ~ 2025.12**
+>
+> 🏆 AWARDS
+> 대한전기학회 18회 대상 | **2025.10.23**  
+> 상명대학교 캡스톤디자인 교내 경진대회 대상 | **2026.02.05**
 
 MCP(Model Context Protocol) 기반으로 소프트웨어 구성 요소(SCA)를 자동 분석하고, 
 CVE 데이터베이스와 연동하여 **취약점을 탐지·관리·보고**하는 통합 시스템 구현.
@@ -131,16 +134,16 @@ AWS 환경에서 실제 공격 시나리오에 대응하는 로그 기반 침해
 
 | 취득일 | 자격증 |
 |:---:|---|
-| 2026.04.03 | **리눅스마스터 2급** |
-| 2026.03.11 | **정보처리기사** (필기 합격) |
-| 2026.03.06 | **ADsP : 데이터 분석 준전문가** |
-| 2025.07.27 | ️ **AWS Certified Cloud Practitioner** |
+| 2026.04.03 | 리눅스마스터 2급 |
+| 2026.03.11 | 정보처리기사 (필기 합격) |
+| 2026.03.06 | ADsP : 데이터 분석 준전문가 |
+| 2025.07.27 | ️ AWS Certified Cloud Practitioner |
 
 </div>
 
 ---
 
-## 경험 및 활동
+## 활동
 
 <div align="center">
 
@@ -148,9 +151,8 @@ AWS 환경에서 실제 공격 시나리오에 대응하는 로그 기반 침해
 |:---:|---|
 | 2026.03 ~ | 상명대학교 캡스톤디자인 4-1 — skrr 팀 (진행 중) |
 | 2026.03 ~ | Baby Beavers 1기 — Justin Beavers 팀 (진행 중) |
-| 2026.02.05 | 상명대학교 캡스톤디자인 교내 경진대회 **대상** |
-| 2025.10.23 | 대한전기학회 18회 **대상** |
-| 2025.03 ~ 2025.09 | ️ KITRI 화이트햇 스쿨 3기 수료 |
+| 2025.09 ~ 2025.12 | 상명대학교 캡스톤디자인 3-2 — 타이거개구리 팀 |
+| 2025.03 ~ 2025.09 | KITRI 화이트햇 스쿨 3기 수료 |
 | 2024.06 ~ 2024.10 | KISIA AI 보안 기술개발 교육과정 — 악성코드 트랙 수료 |
 | 2023.03 ~ | 상명대학교 정보보안공학과 입학 |
 
