@@ -16,20 +16,18 @@
 
 ---
 
-## 수상
+## Awards
 
-> 대한전기학회 18회 대상 (2025.10.23)  
-> 상명대학교 캡스톤디자인 교내 경진대회 대상 (2026.02.05)
-
+> 대한전기학회 제18회 대학생 작품경진대회 대상 (2025.10.23)  
+> 상명대학교 2025학년도 2학기 캡스톤디자인 경진대회 대상 (2026.02.05)
 
 ---
 
-## 기술 스택
+## Tech Stack
 
 ### Cloud
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-
 ### CERT
 ![SIEM](https://img.shields.io/badge/SIEM-0078D6?style=flat-square&logoColor=white)
 ![Incident_Response](https://img.shields.io/badge/Incident_Response-DC2626?style=flat-square&logoColor=white)
@@ -46,30 +44,35 @@
 ![IDA](https://img.shields.io/badge/IDA_Pro-0078D4?style=flat-square&logoColor=white)
 ![ML_Classification](https://img.shields.io/badge/ML_Classification-F59E0B?style=flat-square&logo=scikitlearn&logoColor=white)
 
+
 ### Dev & Infra
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-0ea5e9?style=flat-square&logoColor=white)
 
-## 프로젝트
+---
+
+## Projects
 
 ### 자율형 AI Agent(OpenClaw)를 활용한 취약점 분석 자동화
-> 캡스톤디자인 4-1학기 · skrr 팀 | **2026.03 ~ 진행 중**
+> 캡스톤디자인 4-1학기 | **2026.03 ~ 진행 중**
 
-Discord Bot UI를 통해 사용자 명령을 받아 AI 에이전트가 자동으로 취약점을 스캔하고 MITRE ATT&CK 시나리오와 매핑하여 보고서를 생성하는 자율형 보안 분석 시스템 개발.
+프롬프트 하나로 AI 에이전트가 취약점 스캔 → 공격 시나리오 생성 → 결과 시각화까지 전 과정을 자율적으로 수행하는 보안 분석 시스템.
 
-- OpenClaw Agent — Vulnerability Scanner · MITRE ATT&CK Scenario Mapper 스킬 설계
-- 스캔 결과 기반 공격 시나리오 자동 생성
-- Discord Bot 인터페이스 연동 및 취약점 리포트 시각화
+- Nuclei · Katana · TruffleHog 기반 취약점 스캐닝 스킬 설계
+- CWE → CAPEC → MITRE ATT&CK 계층 매핑으로 위협 인텔리전스 연동
+- AI 에이전트가 스캔 결과 기반 공격 시나리오(선행 조건·단계·영향·조치) 자동 생성
+- Streamlit 대시보드 — 공격 경로 SVG 시각화 및 PDF 보고서 출력
 
-🔗 [lhywk/openclaw-vulnerability-scanner](https://github.com/lhywk/openclaw-vulnerability-scanner)
+🔗 [S-CClaw](https://github.com/S-CClaw)
 
 ---
 
 ### Baby Beavers 1기 — 클라우드 보안 & 레드팀 학습
-> Baby Beavers · Justin Beavers 팀 | **2026.03 ~ 진행 중**
+> Baby Beavers | **2026.03 ~ 진행 중**
 
 공격자 관점의 현실적인 시나리오 설계에 초점을 맞추고, AWS 인프라를 직접 구축하며 클라우드 보안을 심화 학습 중.
 
@@ -82,14 +85,15 @@ Discord Bot UI를 통해 사용자 명령을 받아 AI 에이전트가 자동으
 ---
 
 ### MCP 기반 소프트웨어 구성 요소 분석 및 취약점 관리 시스템
-> 캡스톤디자인 3-2학기 · 타이거개구리 팀 | **2025.09 ~ 2025.12**
+> 캡스톤디자인 3-2학기 | **2025.09 ~ 2025.12**
 >
 > 🏆 AWARDS
-> 대한전기학회 18회 대상 | **2025.10.23**  
-> 상명대학교 캡스톤디자인 교내 경진대회 대상 | **2026.02.05**
+>
+> 대한전기학회 제18회 대학생 작품경진대회 대상 | **2025.10.23**
+>
+> 상명대학교 2025학년도 2학기 캡스톤디자인 경진대회 대상 | **2026.02.05**
 
-MCP(Model Context Protocol) 기반으로 소프트웨어 구성 요소(SCA)를 자동 분석하고, 
-CVE 데이터베이스와 연동하여 **취약점을 탐지·관리·보고**하는 통합 시스템 구현.
+MCP(Model Context Protocol) 기반으로 소프트웨어 구성 요소(SCA)를 자동 분석하고, CVE 데이터베이스와 연동하여 **취약점을 탐지·관리·보고**하는 통합 시스템 구현.
 
 - 소프트웨어 의존성 자동 파싱 및 구성 요소 목록화
 - CVE 데이터베이스 연동 취약점 자동 매핑
@@ -101,8 +105,8 @@ CVE 데이터베이스와 연동하여 **취약점을 탐지·관리·보고**�
 
 ---
 
-### ️ AWS 클라우드 환경의 로그 기반 침해 사고 탐지 환경 구축
-> 화이트햇 스쿨 3기 · AWS 애쓰지 말라고 했지 팀 | **2025.05 ~ 2025.08**
+### AWS 클라우드 환경의 로그 기반 침해 사고 탐지 환경 구축
+> 화이트햇 스쿨 3기 | **2025.05 ~ 2025.08**
 
 AWS 환경에서 실제 공격 시나리오에 대응하는 로그 기반 침해 사고 탐지 파이프라인 설계 및 구현.
 
@@ -116,10 +120,9 @@ AWS 환경에서 실제 공격 시나리오에 대응하는 로그 기반 침해
 ---
 
 ### 악성코드 유사도 기반 논문 추천 및 연구 동향 시각화 서비스
-> KISIA AI 보안 기술개발 교육과정 · 가락동 패거리 팀 | **2024.06 ~ 2024.10**
+> KISIA AI 보안 기술개발 교육과정 | **2024.06 ~ 2024.10**
 
-악성코드 파일을 입력받아 악성 여부를 판별하고, 임베딩 기반 유사도 검색으로 
-관련 논문을 추천하며 시계열 연구 동향을 시각화하는 서비스 개발.
+악성코드 파일을 입력받아 악성 여부를 판별하고, 임베딩 기반 유사도 검색으로 관련 논문을 추천하며 시계열 연구 동향을 시각화하는 서비스 개발.
 
 - 악성코드 데이터셋 종류별 labeling 및 임베딩 모델 구축
 - arxiv 논문 크롤링 자동화 및 메타데이터 DB 구축
@@ -128,43 +131,21 @@ AWS 환경에서 실제 공격 시나리오에 대응하는 로그 기반 침해
 
 ---
 
-## 자격증
-
 <div align="center">
-
-| 취득일 | 자격증 |
-|:---:|---|
-| 2026.04.03 | 리눅스마스터 2급 |
-| 2026.03.11 | 정보처리기사 (필기 합격) |
-| 2026.03.06 | ADsP : 데이터 분석 준전문가 |
-| 2025.07.27 | ️ AWS Certified Cloud Practitioner |
-
-</div>
-
----
-
-## 활동
-
-<div align="center">
-
-| 기간 | 내용 |
-|:---:|---|
-| 2026.03 ~ | 상명대학교 캡스톤디자인 4-1 — skrr 팀 (진행 중) |
-| 2026.03 ~ | Baby Beavers 1기 — Justin Beavers 팀 (진행 중) |
-| 2025.09 ~ 2025.12 | 상명대학교 캡스톤디자인 3-2 — 타이거개구리 팀 |
-| 2025.03 ~ 2025.09 | KITRI 화이트햇 스쿨 3기 수료 |
-| 2024.06 ~ 2024.10 | KISIA AI 보안 기술개발 교육과정 — 악성코드 트랙 수료 |
-| 2023.03 ~ | 상명대학교 정보보안공학과 입학 |
-
-</div>
-
----
-
-## GitHub Stats
-
-<div align="center">
- <img height="160" src="https://github-readme-stats.vercel.app/api?username=chon29&show_icons=true&theme=default&bg_color=f0f9ff&border_color=bae6fd&title_color=0ea5e9&icon_color=0ea5e9&text_color=0f172a&hide_border=false" />
- <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chon29&layout=compact&theme=default&bg_color=f0f9ff&border_color=bae6fd&title_color=0ea5e9&text_color=0f172a" />
+  <table>
+    <tr>
+      <td>
+        <a href="https://www.gitanimals.org/">
+          <img src="https://render.gitanimals.org/farms/chon29" width="400" height="200" alt="gitanimals farm" />
+        </a>
+      </td>
+      <td>
+        <a href="https://www.gitanimals.org/">
+          <img src="https://render.gitanimals.org/guilds/834826977655465879/draw" width="400" height="200" alt="gitanimals guild" />
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
